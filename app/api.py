@@ -13,6 +13,8 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['SECRET_KEY'] = 'development secret key'
 db = SQLAlchemy(app)
 
+print(db)
+
 migrate = Migrate(app, db)
 
 def _register_blueprint(blueprint, **options):
