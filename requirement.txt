@@ -11,6 +11,7 @@ Flask-Migrate
 Flask-SQLAlchemy
 greenlet
 Flask-Cors
+Flask-Bcrypt
 idna
 importlib-metadata
 itsdangerous
